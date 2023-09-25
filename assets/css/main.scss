@@ -1,11 +1,9 @@
 html,body{overflow-x:hidden !important}
 
-// imports styles
 @import './partials/variables.scss';
 @import './partials/breakpoints.scss';
 @import './partials/reset.css';
 
-// google fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 @mixin placeholder {
@@ -13,11 +11,11 @@ html,body{overflow-x:hidden !important}
       @content;
   }
 
-  &:-moz-placeholder { /* Firefox 18- */
+  &:-moz-placeholder {
       @content;
   }
 
-  &::-moz-placeholder {  /* Firefox 19+ */
+  &::-moz-placeholder { 
       @content;
   }
 
@@ -90,9 +88,8 @@ span {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    margin: 0;
 }
 
 button {
@@ -100,7 +97,7 @@ button {
 }
 
 input[type=number] {
-    -moz-appearance:textfield; /* Firefox */
+    -moz-appearance:textfield;
 }
 
 input, textarea, button, select {

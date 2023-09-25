@@ -35,10 +35,12 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^4.0.0",
     "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
     "scss": "^0.2.4",
     "swiper": "^10.3.0",
     "swr": "^0.3.2",
-    "use-onclickoutside": "^0.3.1"
+    "use-onclickoutside": "^0.3.1",
+    "webpack": "^5.88.2"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.182",

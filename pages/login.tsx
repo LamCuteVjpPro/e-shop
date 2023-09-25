@@ -18,7 +18,6 @@ const LoginPage = () => {
       password: data.password
     });
 
-    console.log(res);
   };
 
   return (
